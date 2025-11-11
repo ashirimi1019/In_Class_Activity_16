@@ -41,49 +41,48 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDjgyveaxiPcuxkqtp5UryvBa1PXb5fo98',
-    appId: '1:480601990521:web:4b6f324e0d06a3974ffba8',
-    messagingSenderId: '480601990521',
-    projectId: 'mad-inclass14-ashir',
-    authDomain: 'mad-inclass14-ashir.firebaseapp.com',
-    storageBucket: 'mad-inclass14-ashir.firebasestorage.app',
-    measurementId: 'G-HR313N3QVK',
+    apiKey: 'YOUR_WEB_API_KEY',
+    appId: 'YOUR_WEB_APP_ID',
+    messagingSenderId: 'YOUR_WEB_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    authDomain: 'YOUR_WEB_AUTH_DOMAIN',
+    storageBucket: 'YOUR_STORAGE_BUCKET',
+    measurementId: 'YOUR_MEASUREMENT_ID',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBCjAIaJl0OIjdq1xoaLyVCxqVTtTj49kw',
-    appId: '1:480601990521:android:d7223ca36d354b2d4ffba8',
-    messagingSenderId: '480601990521',
-    projectId: 'mad-inclass14-ashir',
-    storageBucket: 'mad-inclass14-ashir.firebasestorage.app',
+    apiKey: 'YOUR_ANDROID_API_KEY',
+    appId: 'YOUR_ANDROID_APP_ID',
+    messagingSenderId: 'YOUR_ANDROID_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_STORAGE_BUCKET',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyD_09VuA3Atq9XKMbauJRzxdjJKhZQwZMo',
-    appId: '1:480601990521:ios:799ed900e7f9e6654ffba8',
-    messagingSenderId: '480601990521',
-    projectId: 'mad-inclass14-ashir',
-    storageBucket: 'mad-inclass14-ashir.firebasestorage.app',
-    iosBundleId: 'com.gsu.csc4360.firebaseAuthDemo',
+    apiKey: 'YOUR_IOS_API_KEY',
+    appId: 'YOUR_IOS_APP_ID',
+    messagingSenderId: 'YOUR_IOS_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_STORAGE_BUCKET',
+    iosBundleId: 'YOUR_IOS_BUNDLE_ID',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyD_09VuA3Atq9XKMbauJRzxdjJKhZQwZMo',
-    appId: '1:480601990521:ios:799ed900e7f9e6654ffba8',
-    messagingSenderId: '480601990521',
-    projectId: 'mad-inclass14-ashir',
-    storageBucket: 'mad-inclass14-ashir.firebasestorage.app',
-    iosBundleId: 'com.gsu.csc4360.firebaseAuthDemo',
+    apiKey: 'YOUR_MACOS_API_KEY',
+    appId: 'YOUR_MACOS_APP_ID',
+    messagingSenderId: 'YOUR_MACOS_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_STORAGE_BUCKET',
+    iosBundleId: 'YOUR_MACOS_BUNDLE_ID',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDjgyveaxiPcuxkqtp5UryvBa1PXb5fo98',
-    appId: '1:480601990521:web:c40eee76295402944ffba8',
-    messagingSenderId: '480601990521',
-    projectId: 'mad-inclass14-ashir',
-    authDomain: 'mad-inclass14-ashir.firebaseapp.com',
-    storageBucket: 'mad-inclass14-ashir.firebasestorage.app',
-    measurementId: 'G-2G0W66NSDZ',
+    apiKey: 'YOUR_WINDOWS_API_KEY',
+    appId: 'YOUR_WINDOWS_APP_ID',
+    messagingSenderId: 'YOUR_WINDOWS_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    authDomain: 'YOUR_WINDOWS_AUTH_DOMAIN',
+    storageBucket: 'YOUR_STORAGE_BUCKET',
+    measurementId: 'YOUR_MEASUREMENT_ID',
   );
-
 }
